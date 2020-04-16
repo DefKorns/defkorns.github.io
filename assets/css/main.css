@@ -54,7 +54,7 @@ h3{
     border: 1px solid #600e14;
 }
 
-.item.list-group-item
+.mod.list-group-item
 {
     float: none;
     width: 100%;
@@ -67,34 +67,34 @@ h3{
     border: 0;
 }
 
-.item.list-group-item .img-event {
+.mod.list-group-item .img-event {
     float: left;
     width: 30%;
 }
 
-.item.list-group-item .list-group-image
+.mod.list-group-item .list-group-image
 {
     margin-right: 10px;
 }
-.item.list-group-item .thumbnail
+.mod.list-group-item .thumbnail
 {
     margin-bottom: 0px;
     display: inline-block;
 }
-.item.list-group-item .caption
+.mod.list-group-item .caption
 {
     float: left;
     width: 70%;
     margin: 0;
 }
 
-.item.list-group-item:before, .item.list-group-item:after
+.mod.list-group-item:before, .mod.list-group-item:after
 {
     display: table;
     content: " ";
 }
 
-.item.list-group-item:after
+.mod.list-group-item:after
 {
     clear: both;
 }

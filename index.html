@@ -1,77 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: main
+---
+{% for post in paginator.posts %}
+<article class="post">
+  {% if post.img %}
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+  {% else %}
+  {% endif %}
+  <div class="post-content">
+    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
+    <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+  </div>
+</article>
+{% endfor %}
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport"
-				content="width=device-width, initial-scale=1.0">
-	<script
-					src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
-	<title>Document</title>
-	<style>
-		/* canvas {
-
-			width: 400px !important;
-			height: 400px !important;
-
-		} */
-
-		.chart-container {
-			width: 800px;
-			height: 600px
-		}
-	</style>
-</head>
-
-<body>
-	<div class="chart-container">
-		<canvas id="bar-chart"></canvas>
-	</div>
-
-	<script>
-		new Chart(document.getElementById("bar-chart"), {
-			type: 'bar',
-			data: {
-				labels: ["Hora dos Portugueses (Diário)",
-					"Açores Hoje",
-					"Zig Zag",
-					"Gawayn",
-					"RTP3 / RTP Açores",
-					"Jornal da Tarde - Açores",
-					"Especial Informação Açores",
-					"Noticias do Atlântico- Açores",
-					"Açores Hoje",
-					"Caminhos",
-					"Europa Minha",
-					"Covid-19:Palavra Pública",
-					"Todas as Palavras",
-					"Telejornal Açores",
-					"Solares e Palácios dos Açores",
-					"Gente da Cidade",
-					"Olhar o Mundo",
-					"Solteira e Boa Rapariga",
-					"Conta-me História",
-					"Paraíso",
-					"Rumos"],
-				datasets: [
-					{
-						label: "Population (millions)",
-						backgroundColor: ["#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9", "#c45850", "#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9", "#c45850", "#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9", "#c45850", "#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9", "#c45850",],
-						data: [478, 267, 734, 784, 433, 120, 15267, 634, 884, 533, 633, 2478, 5265, 534, 1084, 233, 1433, 512, 268, 234, 984, 133]
-					}
-				]
-			},
-			options: {
-				legend: { display: false },
-				responsive: true,
-				maintainAspectRatio: false,
-				title: {
-					display: true,
-					text: 'Audiências RTP Açores'
-				}
-			}
-		});
-	</script>
-</body>
-
-</html>
+{% include pagination.html %}

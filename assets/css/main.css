@@ -7,11 +7,16 @@
     font-weight: normal;
     font-style: normal;
 }
-
+.bg-dark {
+    background-color: #222327!important;
+}
 body{
     background-color: #600e14;
     background: rgba(0,0,0,0) url(../img/bg.jpg) no-repeat center center fixed;
     background-size: cover;
+}
+body > .container {
+    padding-top: 70px;
 }
 
 h3{
@@ -20,6 +25,14 @@ h3{
     -webkit-background-clip: text;
     background-position: bottom;
     font-size: 36px;
+    font-family: 'Deadpool-Movie';
+}
+.navbar-brand{
+    background: url(../img/btn-texture.jpg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-position: bottom;
+    font-size: 30px;
     font-family: 'Deadpool-Movie';
 }
 .view-group {

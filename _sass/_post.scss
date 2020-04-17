@@ -24,8 +24,6 @@
     //   background-image: url(../../assets/img/pixels.png);
     // }
 
-
-
     .post-content {
       padding-bottom: rem(10px);
 
@@ -35,7 +33,7 @@
       }
     }
   }
-  &-container{
+  &-container {
     background: rgba(0, 0, 0, 0.75);
     display: flex;
   }
@@ -101,7 +99,7 @@
     line-height: 1.2;
     margin: rem(5px) auto rem(10px);
     padding-top: 0;
-    color: $headers
+    color: $headers;
   }
 
   p.post-subtitle {
@@ -262,8 +260,8 @@
 
     p {
       font-size: rem(17px);
-    //   color: rgba(0, 0, 0, 0.6);
-    color: $themeColor;
+      //   color: rgba(0, 0, 0, 0.6);
+      color: $headers;
       margin: 0;
       @include media('>=sm') {
         font-size: rem(20px);

@@ -207,6 +207,10 @@
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
+  .download-section{
+    margin-bottom: 2rem;
+    float: right;
+  }
   .btn-darkred {
     color: rgb(255, 255, 255);
     background-color: rgb(96, 14, 20);

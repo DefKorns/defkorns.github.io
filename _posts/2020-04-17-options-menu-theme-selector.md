@@ -30,5 +30,7 @@ It includes all the features of it's predecessor and much more
 *  Select a theme just for the home folder
 *  Custom icons for Option Menu
 
+<div class="download-section">
 <a href="https://github.com/DefKorns/om_theme-selector/releases/latest/download/om_theme-selector.hmod" class="btn btn-darkred" role="button">Download Mod</a> <a href="https://github.com/DefKorns/om_theme-selector/wiki" class="btn btn-darkred" role="button" target="_blank">Tutorial</a>
+</div>
 

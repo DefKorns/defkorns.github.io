@@ -11,6 +11,11 @@
   &.no-padding {
     padding-top: 0;
   }
+
+  &-container{
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+}
 }
 
 .row {
@@ -22,6 +27,7 @@
   display: flex;
   flex-flow: row wrap;
 }
+
 
 .title-category {
   font-size: rem(32px);
@@ -69,9 +75,10 @@
     }
 
     .box-body {
+        background-color: $accentDark;
       time,
       p {
-        color: $accentDark;
+        color: $primaryDark;
       }
 
       .cover {

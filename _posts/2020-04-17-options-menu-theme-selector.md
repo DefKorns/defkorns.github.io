@@ -1,7 +1,7 @@
 ---
 date: 2020-04-17 00:38:31
 layout: post
-title: "Options Menu - Theme Selector"
+title: "Theme Selector"
 subtitle: Add themes to your NESCE or SNESCE.
 description: This Options Menu module gives you the possibility to choose your favorite theme and apply it on your NESCE or SNESCE. It includes all the features of it's predecessor and much more.
 image: https://camo.githubusercontent.com/35f43c7fba0c0cc07355622564ad4665aa23c480/68747470733a2f2f692e696d6775722e636f6d2f497869384c59752e706e67
@@ -14,7 +14,6 @@ tags:
 author: DefKorns
 paginate: false
 ---
-
 **This modification is only for use with [CompCom's](https://github.com/CompCom) Options Menu.**
 ### HMOD NOT COMPATIBLE WITH EXTERNAL UI.<br/>PREVIOUS VERSIONS OF THEME RANDOMIZER AND ADVANCED MUSIC HACK WILL BE UNINSTALLED.
 ### What is it?

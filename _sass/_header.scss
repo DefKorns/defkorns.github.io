@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Deadpool-Movie';
+    src:url('/assets/fonts/Deadpool-Movie.ttf.woff') format('woff'),
+        url('/assets/fonts/Deadpool-Movie.ttf.svg#Deadpool-Movie') format('svg'),
+        url('/assets/fonts/Deadpool-Movie.ttf.eot'),
+        url('/assets/fonts/Deadpool-Movie.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
 html,
 body {
   height: 100%;
@@ -22,10 +31,16 @@ body {
   }
 
   .logo {
-    display: inline-block;
-    margin: 0;
-    height: rem(32px);
-    line-height: rem(32px);
+    // display: inline-block;
+    // margin: 0;
+    // height: rem(32px);
+    // line-height: rem(32px);
+    background: url(/assets/btn-texture.jpg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-position: bottom;
+    font-size: 30px;
+    font-family: 'Deadpool-Movie';
 
     a {
       display: block;

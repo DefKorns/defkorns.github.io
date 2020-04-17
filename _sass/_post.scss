@@ -36,7 +36,8 @@
     }
   }
   &-container{
-    background:  0% 0% / cover rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
   }
 }
 .pixels {

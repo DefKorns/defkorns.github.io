@@ -1,20 +1,24 @@
 @font-face {
-    font-family: 'Deadpool-Movie';
-    src:url('/assets/fonts/Deadpool-Movie.ttf.woff') format('woff'),
-        url('/assets/fonts/Deadpool-Movie.ttf.svg#Deadpool-Movie') format('svg'),
-        url('/assets/fonts/Deadpool-Movie.ttf.eot'),
-        url('/assets/fonts/Deadpool-Movie.ttf.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Deadpool-Movie';
+  src: url('/assets/fonts/Deadpool-Movie.ttf.woff') format('woff'),
+    url('/assets/fonts/Deadpool-Movie.ttf.svg#Deadpool-Movie') format('svg'),
+    url('/assets/fonts/Deadpool-Movie.ttf.eot'),
+    url('/assets/fonts/Deadpool-Movie.ttf.eot?#iefix')
+      format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  background-color: $themeColor;
 }
 html,
 body {
   height: 100%;
-  background-color: $themeColor;
 }
 body {
-    background: rgba(0,0,0,0) url(/assets/img/bgv2.jpg) no-repeat center center fixed;
-    background-size: cover;
+  background: rgba(0, 0, 0, 0) url(/assets/img/bgv2.jpg) no-repeat center center
+    fixed;
+  background-size: cover;
 }
 
 .bar-header {
@@ -25,8 +29,8 @@ body {
   width: 100%;
   z-index: 10;
   transition: top 0.5s, left 0.3s ease, background-color 0.5s, box-shadow 0.5s;
-  
-  @include media(">=sm") {
+
+  @include media('>=sm') {
     padding: rem(15px) rem(0px);
   }
 
@@ -54,9 +58,9 @@ body {
     svg {
       width: rem(120px);
       height: rem(30px);
-      transition: all .4s;
-  
-      @include media(">=sm") {
+      transition: all 0.4s;
+
+      @include media('>=sm') {
         width: rem(205px);
       }
     }
@@ -83,7 +87,7 @@ body {
     height: rem(20px);
     fill: $accentDark;
 
-    @include media(">=sm") {
+    @include media('>=sm') {
       margin: rem(5px) rem(20px) rem(5px) rem(25px);
     }
   }
@@ -94,7 +98,7 @@ body {
     height: rem(30px);
     cursor: pointer;
     margin: 0;
-    @include media(">=sm") {
+    @include media('>=sm') {
       margin: 0 rem(20px) 0 0;
     }
   }
@@ -118,7 +122,7 @@ body {
     float: right;
     margin: rem(5px) rem(15px) rem(5px) rem(5px);
 
-    @include media(">=sm") {
+    @include media('>=sm') {
       display: inline-block;
     }
   }

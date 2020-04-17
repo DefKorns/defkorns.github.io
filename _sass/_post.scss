@@ -33,7 +33,11 @@
     }
   }
 }
-
+.pixels {
+    display: flex;
+    opacity: 0.8;
+    background-image: url(../../assets/img/pixels.png);
+  }
 .post-content {
   overflow-x: auto;
   padding: rem(40px) 0;

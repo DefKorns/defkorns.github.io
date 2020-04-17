@@ -79,7 +79,7 @@ Enjoy it as much as i did making it.
 - [Swingflip](https://github.com/swingflip)
 - [ThanosRD](https://github.com/ThanosRD)
   <br/>
-<button class="button button5">Black</button>
+<button class="btn btn-darkred">Black</button>
 <a href="https://github.com/thiagorossener/jekflix-template" class="get-theme" role="button">
             Get this theme!
         </a>

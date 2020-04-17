@@ -15,7 +15,6 @@ author: DefKorns
 paginate: false
 ---
 
-# Options Menu - Theme Selector
 **This modification is only for use with [CompCom's](https://github.com/CompCom) Options Menu.**
 ### HMOD NOT COMPATIBLE WITH EXTERNAL UI.<br/>PREVIOUS VERSIONS OF THEME RANDOMIZER AND ADVANCED MUSIC HACK WILL BE UNINSTALLED.
 

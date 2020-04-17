@@ -78,16 +78,16 @@
         {% if site.show_modal_on_exit %}
             {% include modal.html title="Don't go yet!" subtitle="You may also like..." closed=true showOnExit=true %}
         {% endif %}
-        <div class="pixels">
-        {% include subscription.html %}
+
+        <!-- {% include subscription.html %}
         {% include share.html %}
         {% include author.html %}
-        {% include comments.html %}
+        {% include comments.html %} -->
         {% include footer.html %}
 
         {% assign author = site.authors | where: "name", post.author | first %}
 
-        {% assign author_urls = '' %}
+        <!-- {% assign author_urls = '' %}
         {% if author.github_username %}
             {% assign author_urls = author_urls | append: '"https://github.com/' | append: author.github_username | append: '",' %}
         {% endif %}
@@ -105,8 +105,7 @@
         {% endif %}
         {% if author.linkedin_username %}
             {% assign author_urls = author_urls | append: '"https://www.linkedin.com/in/' | append: author.linkedin_username | append: '",' %}
-        {% endif %}
-        </div>
+        {% endif %} -->
         {% if page.math %}
         <script>
             MathJax = {

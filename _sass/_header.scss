@@ -8,16 +8,19 @@
   font-weight: normal;
   font-style: normal;
 }
+
 html {
   background-color: $themeColor;
 }
+
 html,
 body {
   height: 100%;
 }
+
 body {
-  background: rgba(0, 0, 0, 0) url(/assets/img/bgv2.jpg) no-repeat center center
-    fixed;
+    background-color: $themeColor;
+  background: rgba(0, 0, 0, 0) url(/assets/img/bgv2.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 

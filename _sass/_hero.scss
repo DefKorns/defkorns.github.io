@@ -36,6 +36,7 @@
     width: 80%;
     height: 100%;
     padding-left: 10%;
+    flex: 1;
 
     @include media(">=sm") {
       width: 50%;

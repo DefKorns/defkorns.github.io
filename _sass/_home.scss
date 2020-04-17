@@ -64,22 +64,18 @@
   @include media('>=#{(2 * $rowMargin) + ($maxItemsPerRow * $itemMinWidth)}') {
     flex: 1 0 calc(100% /#{$maxItemsPerRow} - #{$itemMargin * 2});
   }
+  @media (min-width: 1820px) {
+    flex: 1 0 calc(100% / 4 - 30px) !important;
+    max-width: calc(100% / 4 - 30px) !important;
+  }
+  @media (min-width: 1820px) {
+    max-width: calc(100% / 4 - 30px) !important;
+  }
 
-  @media (min-width: 1820px) {
-    .box-item {
-      flex: 1 0 calc(100% / 4 - 30px) !important;
-    }
-  }
-  @media (min-width: 1820px) {
-    .box-item {
-      max-width: calc(100% / 4 - 30px) !important;
-    }
-  }
   @media (min-width: 1520px) {
-    .box-item {
-      max-width: calc(100% / 4 - 30px) !important;
-    }
+    max-width: calc(100% / 4 - 30px) !important;
   }
+
   &:hover {
     z-index: 2;
     transform: scale(1.1);

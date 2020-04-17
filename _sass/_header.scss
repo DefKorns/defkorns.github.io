@@ -31,11 +31,11 @@ body {
   }
 
   .logo {
-    // display: inline-block;
-    // margin: 0;
-    // height: rem(32px);
-    // line-height: rem(32px);
-    background: url(/assets/btn-texture.jpg);
+    display: inline-block;
+    margin: 0;
+    height: rem(32px);
+    line-height: rem(32px);
+    background: url(/assets/img/btn-texture.jpg);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-position: bottom;

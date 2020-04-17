@@ -4,7 +4,7 @@
   -moz-osx-font-smoothing: grayscale;
   padding-top: rem(80px);
 
-  @include media(">=sm") {
+  @include media('>=sm') {
     padding-top: rem(100px);
   }
 
@@ -12,12 +12,12 @@
     padding-top: 0;
   }
 
-  &-container{
+  &-container {
     background: rgba(0, 0, 0, 0.75);
     display: flex;
     margin: 0 auto;
     max-width: 1100px;
-}
+  }
 }
 
 .row {
@@ -29,7 +29,6 @@
   display: flex;
   flex-flow: row wrap;
 }
-
 
 .title-category {
   font-size: rem(32px);
@@ -48,7 +47,7 @@
   position: relative;
   z-index: 1;
 
-  @include media(">=sm") {
+  @include media('>=sm') {
     margin: 0 rem($itemMargin) rem(30px);
   }
 
@@ -56,16 +55,31 @@
   // have the same width than their siblings.
   @for $n from 2 through $maxItemsPerRow {
     $resolution: (2 * $rowMargin) + ($n * $itemMinWidth);
-    @include media(">=#{$resolution}") {
-      max-width: calc(100%/#{$n} - #{$itemMargin * 2});
+    @include media('>=#{$resolution}') {
+      max-width: calc(100% /#{$n} - #{$itemMargin * 2});
     }
   }
 
   // Note 2: This sets the maximum number of box items per row.
-  @include media(">=#{(2 * $rowMargin) + ($maxItemsPerRow * $itemMinWidth)}") {
-    flex: 1 0 calc(100%/#{$maxItemsPerRow} - #{$itemMargin * 2});
+  @include media('>=#{(2 * $rowMargin) + ($maxItemsPerRow * $itemMinWidth)}') {
+    flex: 1 0 calc(100% /#{$maxItemsPerRow} - #{$itemMargin * 2});
   }
 
+  @media (min-width: 1820px) {
+    .box-item {
+      flex: 1 0 calc(100% / 4 - 30px) !important;
+    }
+  }
+  @media (min-width: 1820px) {
+    .box-item {
+      max-width: calc(100% / 4 - 30px) !important;
+    }
+  }
+  @media (min-width: 1520px) {
+    .box-item {
+      max-width: calc(100% / 4 - 30px) !important;
+    }
+  }
   &:hover {
     z-index: 2;
     transform: scale(1.1);
@@ -77,8 +91,8 @@
     }
 
     .box-body {
-        background-color: $accentDark;
-        color: $primaryDark;
+      background-color: $accentDark;
+      color: $primaryDark;
       time,
       p {
         color: $primaryDark;
@@ -136,13 +150,13 @@
       margin: rem(10px) 0;
       font-size: rem(24px);
       @include mainFont(800);
-      color: $accentDark;
+      color: $primaryDark;
       line-height: rem(30px);
     }
 
     p {
       margin: 0 0 rem(30px);
-      color: darken($lightGray, 20%);
+      color: $primaryDark;
       font-size: rem(17px);
       line-height: rem(26px);
     }
@@ -150,18 +164,18 @@
     .tags a {
       height: rem(30px);
       line-height: rem(26px);
-      color: $accentDark;
+      color: $themeColor;
       padding: 0 rem(10px);
-      border: 1px solid $accentDark;
+      border: 1px solid $themeColor;
       border-radius: 15px;
       display: inline-block;
       margin: 0 rem(10px) rem(10px) 0;
       z-index: 50;
 
       &:hover {
-        color: $primaryDark;
-        background: $accentDark;
-        border-color: $accentDark;
+        color: $accentDark;
+        background: $themeColor;
+        border-color: $themeColor;
       }
     }
 
@@ -204,7 +218,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        content: "";
+        content: '';
         width: rem(80px);
         height: rem(80px);
         border-radius: 40px;

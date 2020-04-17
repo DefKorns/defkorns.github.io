@@ -78,8 +78,10 @@ Enjoy it as much as i did making it.
 - [Scrubmacher](https://www.reddit.com/user/Scrubmacher)
 - [Swingflip](https://github.com/swingflip)
 - [ThanosRD](https://github.com/ThanosRD)
-  <br/>
+
+
 <button class="btn btn-darkred">Black</button>
+
 <a href="https://github.com/thiagorossener/jekflix-template" class="get-theme" role="button">
             Get this theme!
         </a>

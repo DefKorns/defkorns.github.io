@@ -295,11 +295,11 @@
 
     th,
     td {
-      border: rem(1px) solid #ccc;
+      border: rem(1px) solid $texts;
       padding: rem(5px) rem(10px);
 
       @include media('>=sm') {
-        border: rem(2px) solid #ccc;
+        border: rem(2px) solid $texts;
         padding: rem(10px) rem(20px);
       }
     }

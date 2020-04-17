@@ -29,6 +29,8 @@ pre {
 
 .highlight {
   margin: rem(20px) 0;
+  color: #f8f8f2;
+  background-color: #272822;
 
   @include media(">=sm") {
     word-wrap: break-word;
@@ -84,7 +86,7 @@ pre {
   .vc,    // Name.Variable.Class
   .vg,    // Name.Variable.Global
   .vi {   // Name.Variable.Instance
-    color: #50fa7b;
+    color: #f8f8f2;
   }
 
   .nl {   // Name.Label

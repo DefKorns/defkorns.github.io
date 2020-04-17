@@ -80,3 +80,6 @@ Enjoy it as much as i did making it.
 - [ThanosRD](https://github.com/ThanosRD)
   <br/>
 <button class="button button5">Black</button>
+<a href="https://github.com/thiagorossener/jekflix-template" class="get-theme" role="button">
+            Get this theme!
+        </a>

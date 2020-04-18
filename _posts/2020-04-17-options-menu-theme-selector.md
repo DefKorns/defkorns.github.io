@@ -10,7 +10,7 @@ category: mods
 tags:
   - hakchi
   - nintendo
-	- minis
+  - minis
   - options menu
 author: DefKorns
 paginate: false

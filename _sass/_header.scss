@@ -138,26 +138,9 @@ body.main-page {
   min-height: 100vh;
 
   .bar-header {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color:$primaryDark;
   }
 }
-
-// body.light:not(.main-page) {
-//   .bar-header {
-//     box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
-//     background-color: $themeColor;
-
-//     .icon-search,
-//     .icon-menu {
-//       fill: $primaryDark;
-//     }
-
-//     .logo a,
-//     .version {
-//       color: $primaryDark;
-//     }
-//   }
-// }
 
 .overlay {
   position: fixed;

@@ -10,7 +10,7 @@ category: mods
 tags:
   - hakchi
   - nintendo
-	- minis
+  - minis
   - options menu
 author: DefKorns
 paginate: false
@@ -19,12 +19,11 @@ paginate: false
 **This hmod is to use only with [CompCom's](https://github.com/CompCom) Options Menu.**
 
 ### **What is it?**
+
 This [Options Menu](https://github.com/CompCom/OptionsMenu/releases/latest) module allows you to backup/restore, through the UI, your network configuration.
 
 Very useful if you move your system through several different networks
 
-
 <div class="download-section">
 <a href="https://github.com/DefKorns/om-wifi-backup/releases/latest/download/om-wifi-backup.hmod" class="btn btn-darkred" role="button">Download Mod</a>
 </div>
-

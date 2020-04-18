@@ -12,6 +12,7 @@ tags:
   - nintendo
 	- minis
 	- snes
+	- options-menu
 author: DefKorns
 paginate: false
 ---

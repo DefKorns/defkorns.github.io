@@ -17,7 +17,7 @@ paginate: false
 
 ![Screenshot](https://i.imgur.com/Nc4Pgi7.png)
 
-This is a simple mod to allow you to add your Project Eris Palystation game collection to Emulationstation.
+This is a simple mod to allow you to add your Project Eris Playstation game collection to Emulationstation.
 
 ### Installation
 

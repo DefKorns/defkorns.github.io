@@ -10,11 +10,11 @@
 
 footer {
   @include center(rem(800px));
-	//   border-top: 1px solid darken($accentDark, 10%);
-	max-width: 100%;
-    padding: 0.5rem 0;
-    width: 100%;
-  background-color:$primaryDark;
+  //   border-top: 1px solid darken($accentDark, 10%);
+  max-width: 100%;
+  padding: 0.5rem 0;
+  width: 100%;
+  background-color: $primaryDark;
   padding: rem(20px) rem(25px);
   //   margin-top: rem(50px);
   //   margin-bottom: rem(120px);

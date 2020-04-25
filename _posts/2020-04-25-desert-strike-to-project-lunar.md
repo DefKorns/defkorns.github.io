@@ -33,9 +33,5 @@ Simply select `Apply IPS Patch`
 - AyanamiRei0
 
 <div class="download-section">
-<a href="https://mega.nz/file/JQch3SLL#7BujHXZj_WVOJ3FP7R1uVV1IxiONbx-r7_yB1Vp3tdQ" class="btn btn-darkred" role="button">USA, Europe</a> <a href="https://mega.nz/file/cIFXkSpB#1FJhkEYUX7fFHK8l68rWSijLJ19iAhexI1I_r-lWj3s" class="btn btn-darkred" role="button">Korean</a>
-</div>
-
-<div class="download-section">
-<a href="https://github.com/DefKorns/es-psx-playlist/releases/latest/download/es-psx-playlist_SONYPSC.mod" class="btn btn-darkred" role="button">Download Mod</a>
+<a href="https://github.com/DefKorns/defkorns.github.io/raw/master/assets/Desert%20Strike%20-%20Return%20to%20the%20Gulf%20(UE)%20%5B!%5D.ips" class="btn btn-darkred" role="button">USA, Europe</a> <a href="https://github.com/DefKorns/defkorns.github.io/raw/master/assets/Desert%20Strike%20-%20Return%20to%20the%20Gulf%20(K).ips" class="btn btn-darkred" role="button">Korean</a>
 </div>

@@ -3,7 +3,7 @@ date: 2019-09-21 3:46:06
 layout: post
 title: "Lua Decompiler Classic Edition"
 subtitle:
-description: A tool to allow make a moder's life easier
+description: A tool to make a moder's life easier
 image: https://raw.githubusercontent.com/DefKorns/defkorns.github.io/master/assets/img/default.png
 optimized_image: https://raw.githubusercontent.com/DefKorns/defkorns.github.io/master/assets/img/default-sm.png
 category: tools

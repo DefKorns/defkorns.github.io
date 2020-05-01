@@ -7,7 +7,7 @@ permalink: /staff/
 
 <h1>Staff</h1>
 
-<div class="staff">
+<!-- <div class="staff">
   {% for author in site.authors %}
     <div class="item">
       <h2 class="name">
@@ -18,4 +18,14 @@ permalink: /staff/
       {% endif %}
     </div>
   {% endfor %}
-</div>
+</div> -->
+
+<ul>
+	{% for member in site.data.members %}
+	<li>
+		<a href="https://github.com/{{ member.github }}">
+			{{ member.name }}
+		</a>
+	</li>
+	{% endfor %}
+</ul>

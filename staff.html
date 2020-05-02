@@ -4,153 +4,9 @@ title: Staff
 description: Meet our team.
 permalink: /staff/
 ---
-	<!-- jQuery -->
-	<script src="js/jquery-latest.min.js"></script>
-	
-	<!-- Demo stuff -->
-	<link rel="stylesheet"
-				href="css/jq.css">
-	<link rel="stylesheet"
-				href="css/bootstrap-v4.min.css">
-	<link href="css/prettify.css"
-				rel="stylesheet">
-	<script src="js/prettify.js"></script>
-	<script src="js/docs.js"></script>
-	
-	<!-- Tablesorter: required for bootstrap -->
-	<link rel="stylesheet"
-				href="css/theme.bootstrap_4.css">
-	<script src="js/jquery.tablesorter.js"></script>
-	<script src="js/jquery.tablesorter.widgets.js"></script>
-	
-	<!-- Tablesorter: optional -->
-	<link rel="stylesheet"
-				href="addons/pager/jquery.tablesorter.pager.css">
-	<link rel="stylesheet"
-				href="css/flag-icon.css">
-	<style>
-		.tablesorter-pager .btn-group-sm .btn {
-			font-size: 1.2em;
-		}
-	</style>
-	<script src="addons/pager/jquery.tablesorter.pager.js"></script>
-	
-	<script id="js">$(function () {
-
-			$("table").tablesorter({
-				theme: "bootstrap",
-
-				widthFixed: false,
-
-				// widget code contained in the jquery.tablesorter.widgets.js file
-				// use the zebra stripe widget if you plan on hiding any rows (filter widget)
-				// the uitheme widget is NOT REQUIRED!
-				widgets: ["filter", "columns", "zebra"],
-
-				widgetOptions: {
-					// using the default zebra striping class name, so it actually isn't included in the theme variable above
-					// this is ONLY needed for bootstrap theming if you are using the filter widget, because rows are hidden
-					zebra: ["even", "odd"],
-
-					// class names added to columns when sorted
-					columns: ["primary", "secondary", "tertiary"],
-
-					// reset filters button
-					filter_reset: ".reset",
-
-					// extra css class name (string or array) added to the filter element (input or select)
-					filter_cssFilter: [
-						'form-control',
-						'form-control',
-						'form-control custom-select', // select needs custom class names :(
-						'form-control',
-						'form-control',
-						'form-control',
-						'form-control'
-					]
-
-				}
-			})
-				.tablesorterPager({
-
-					// target the pager markup - see the HTML block below
-					container: $(".ts-pager"),
-
-					// target the pager page select dropdown - choose a page
-					cssGoto: ".pagenum",
-
-					// remove rows from the table to speed up the sort of large tables.
-					// setting this to false, only hides the non-visible rows; needed if you plan to add/remove rows with the pager enabled.
-					removeRows: false,
-
-					// output string - default is '{page}/{totalPages}';
-					// possible variables: {page}, {totalPages}, {filteredPages}, {startRow}, {endRow}, {filteredRows} and {totalRows}
-					output: '{startRow} - {endRow} / {filteredRows} ({totalRows})'
-
-				});
-
-		});</script>
-	
-	<script>
-		$(function () {
-			$('button.filter').click(function () {
-				var col = $(this).data('column'),
-					txt = $(this).data('filter');
-				$('table').find('.tablesorter-filter').val('').eq(col).val(txt);
-				$('table').trigger('search', false);
-				return false;
-			});
-
-			// toggle zebra widget
-			$('button.zebra').click(function () {
-				var t = $(this).hasClass('btn-success');
-				$('table')
-					.toggleClass('table-striped')[0]
-					.config.widgets = (t) ? ["filter"] : ["filter", "zebra"];
-				$(this)
-					.toggleClass('btn-danger btn-success')
-					.find('span')
-					.text(t ? 'disabled' : 'enabled');
-				$('table').trigger('refreshWidgets', [false]);
-				return false;
-			});
-		});
-	</script>
-
-<h1>Staff</h1>
-
-<!-- <div class="staff">
-  {% for author in site.authors %}
-    <div class="item">
-      <h2 class="name">
-        <a href="{{ site.baseurl }}{{ author.url }}">{{ author.display_name }}</a>
-      </h2>
-      {% if author.position %}
-        <h3 class="position">{{ author.position }}</h3>
-      {% endif %}
-    </div>
-  {% endfor %}
-</div> -->
-
-
-<div id="main">
-
-
-	<h1>Mega Drive / Genesis Mini Compatibility List</h1>
-	<!-- use the filter_reset : '.reset' option or include data-filter="" using the filter button demo code to reset the filters -->
-	<div class="bootstrap_buttons">
-		Reset filter : <button type="button"
-						class="reset btn btn-primary"
-						data-column="0"
-						data-filter="">Reset filters</button>
-		<br>
-		<!--Zebra widget : <button type="button" class="zebra btn btn-success"><span>enabled</span></button>
-        </div> -->
-		<br>
 
 		<div id="demo">
 			<table class="table table-bordered table-striped">
-				<thead class="thead-dark">
 					<tr>
 						<th>Title</th>
 						<th class="sorter-false filter-false">Region</th>
@@ -161,53 +17,6 @@ permalink: /staff/
 								data-placeholder="Filter by Status">Status</th>
 						<th class="sorter-false filter-false">Notes</th>
 					</tr>
-				</thead>
-				<tfoot>
-					<tr>
-						<th>Title</th>
-						<th>Region</th>
-						<th>Version</th>
-						<th>CRC32</th>
-						<th>Status</th>
-						<th>Notes</th>
-					</tr>
-					<tr>
-						<th colspan="6"
-								class="ts-pager">
-							<div class="form-inline">
-								<div class="btn-group btn-group-sm mx-1"
-										 role="group">
-									<button type="button"
-													class="btn btn-secondary first"
-													title="first">&#8676;</button>
-									<button type="button"
-													class="btn btn-secondary prev"
-													title="previous">&larr;</button>
-								</div>
-								<span class="pagedisplay"></span>
-								<div class="btn-group btn-group-sm mx-1"
-										 role="group">
-									<button type="button"
-													class="btn btn-secondary next"
-													title="next">&rarr;</button>
-									<button type="button"
-													class="btn btn-secondary last"
-													title="last">&#8677;</button>
-								</div>
-								<select class="form-control-sm custom-select px-1 pagesize"
-												title="Select page size">
-									<option selected="selected"
-													value="10">10</option>
-									<option value="20">20</option>
-									<option value="30">30</option>
-									<option value="all">All Rows</option>
-								</select>
-								<select class="form-control-sm custom-select px-4 mx-1 pagenum"
-												title="Select page number"></select>
-							</div>
-						</th>
-					</tr>
-				</tfoot>
 				<tbody>
 					{% for game in site.data.licensed %}
 					<tr>
@@ -225,7 +34,6 @@ permalink: /staff/
 					</div>
 					
 					
-					</div>
 					<!-- <ul>
 						{% for member in site.data.members %}
 						<li>

@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5f205b3a-73c2-472c-b052-82b95bdf36b7/deploy-status)](https://app.netlify.com/sites/sleepy-bhabha-00eedf/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/15c87747-c5ed-4753-90c4-9a2ec47c2f43/deploy-status)](https://app.netlify.com/sites/defkorns/deploys)
 
 # Jekflix Template
 

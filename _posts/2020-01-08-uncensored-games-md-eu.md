@@ -17,3 +17,7 @@ paginate: false
 ---
 Adds the uncensored versions of Castlevania - Bloodlines and Contra - Hard Corps to european Megadrive.\
 **PROJECT LUNAR ONLY!!!**
+
+<div class="download-section">
+<a href="https://mega.nz/file/QVt0DCQI#iav7ne83A1kLi8PSToumTT89QTRvlgVTKtBq9Nph_18" class="btn btn-darkred" role="button">Download Mod</a>
+</div>

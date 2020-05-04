@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: /assets/img/uploads/profile.png
+photo: /assets/img/uploads/deadpool.png
 name: defkorns
 display_name: DefKorns
 position: Chief Editor
@@ -12,4 +12,3 @@ instagram_username: defkorns
 linkedin_username: defkorns
 medium_username: defkorns
 ---
-

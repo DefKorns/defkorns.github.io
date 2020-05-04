@@ -1,5 +1,5 @@
 ---
-date: 2020-05-04T15:15:01.000Z
+date: 2020-01-08 15:15:01
 layout: post
 title: Uncensored Games - European Megadrive Mini
 description: Adds the uncensored versions of Castlevania - Bloodlines and Contra

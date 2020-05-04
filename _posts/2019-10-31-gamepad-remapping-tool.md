@@ -36,3 +36,7 @@ Largely based on [advokaten's](https://github.com/advokaten) [Remap-Canoe-Contro
 * [Advokaten](https://gitlab.com/advokaten)
 * [CompCom](https://www.reddit.com/u/CompComDev)
 * [ModMyClassic](https://modmyclassic.com/)
+
+<div class="download-section">
+<a href="https://github.com/DefKorns/om-gamepad-remapping-tool/releases/latest/download/om-gamepad-remapping-tool-1.0.0.hmod" class="btn btn-darkred" role="button">Download Mod</a>
+</div>

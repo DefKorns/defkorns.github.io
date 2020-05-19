@@ -1,18 +1,19 @@
 ---
-date: 2020-04-25 21:42:27
+date: 2020-04-25T21:42:27.000Z
 layout: post
-title: "Desert Strike to Project Lunar"
-subtitle: 
-description: Allows you to play Desert Strike on your mega drive mini with Project Lunar without retroarch, also works on steam.
+title: Desert Strike to Project Lunar
+subtitle: null
+description: Allows you to play Desert Strike on your mega drive mini with
+  Project Lunar without retroarch, also works on steam.
 image: https://raw.githubusercontent.com/DefKorns/defkorns.github.io/master/assets/img/desertstrike.png
 optimized_image: https://raw.githubusercontent.com/DefKorns/defkorns.github.io/master/assets/img/desertstrike-sm.png
-category: patch
+category: "{{slug}}"
 tags:
   - Project Lunar
   - mega drive
   - genesis
   - minis
-author: DefKorns
+author: defkorns
 paginate: false
 ---
 

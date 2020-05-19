@@ -29,7 +29,7 @@ Afterwards copy the `IPS` folder to your `lunar_data` directory (usually `%local
 
 ### How to apply?
 
-Apply as any other ips patch. I personaly like to use [Lunar Ips](https://www.romhacking.net/utilities/240/).
+Apply as any other ips patch. I personally like to use [Lunar Ips](https://www.romhacking.net/utilities/240/).
 
 Simply select `Apply IPS Patch` ![Lunar IPS](https://www.romhacking.net/utilities/screenshots/240screenshot1.gif)
 

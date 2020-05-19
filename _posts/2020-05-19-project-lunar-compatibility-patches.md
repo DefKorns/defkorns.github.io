@@ -1,18 +1,18 @@
 ---
-date: 2020-05-19 18:21:06
+date: 2020-05-19T18:21:06.000Z
 layout: post
-title: "Project Lunar Compatibility Patches"
-subtitle:
-description:
-image:
-optimized_image:
+title: Project Lunar Compatibility Patches
+subtitle: null
+description: IPS patches to improve Project Lunar Game compatibility
+image: /assets/img/uploads/default.png
+optimized_image: /assets/img/uploads/default-sm.png
 category: patch
 tags:
   - Project Lunar
   - mega drive
   - genesis
   - minis
-author: DefKorns
+author: defkorns
 paginate: false
 ---
 

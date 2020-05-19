@@ -4,8 +4,8 @@ layout: post
 title: "Wifi Backup"
 subtitle: Save your wifi settings.
 description: Very useful if you move your system through several different networks
-image: https://raw.githubusercontent.com/DefKorns/defkorns.github.io/master/assets/img/default.png
-optimized_image: https://raw.githubusercontent.com/DefKorns/defkorns.github.io/master/assets/img/default-sm.png
+image: /assets/img/uploads/default.png
+optimized_image: /assets/img/uploads/default-sm.png
 category: mods
 tags:
   - hakchi

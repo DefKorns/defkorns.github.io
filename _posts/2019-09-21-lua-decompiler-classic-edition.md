@@ -4,8 +4,8 @@ layout: post
 title: "Lua Decompiler Classic Edition"
 subtitle:
 description: A tool to make a moder's life easier
-image: https://raw.githubusercontent.com/DefKorns/defkorns.github.io/master/assets/img/default.png
-optimized_image: https://raw.githubusercontent.com/DefKorns/defkorns.github.io/master/assets/img/default-sm.png
+image: /assets/img/uploads/default.png
+optimized_image: /assets/img/uploads/default-sm.png
 category: tools
 tags:
   - hakchi

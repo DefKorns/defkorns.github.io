@@ -6,7 +6,7 @@ subtitle: null
 description: IPS patches to improve Project Lunar Game compatibility
 image: /assets/img/uploads/default.png
 optimized_image: /assets/img/uploads/default-sm.png
-category: "{{slug}}"
+category: "patch"
 tags:
   - Project Lunar
   - mega drive
@@ -18,25 +18,36 @@ paginate: false
 ### How to use this?
 
 Download the `fix_ips.zip` and extract it. 
+![Extract patch pack](https://i.imgur.com/PJ7FDC3.png)
 
+Open the the extracted `fix_ips` folder and copy the `IPS` folder to your `lunar_data` directory (usually `%localappdata%\ModMyClassic\Project Lunar Desktop UI\lunar_data`)
+![Copy IPS](https://i.imgur.com/agJXVnZ.png)
 
+![Paste IPS](https://i.imgur.com/H4GdofU.png)
 
-Afterwards copy the `IPS` folder to your `lunar_data` directory (usually `%localappdata%\ModMyClassic\Project Lunar Desktop UI\lunar_data` )
+**Overwrite all files if asked**
+![Overwrite](https://i.imgur.com/QegaUh9.png)
+
+Now if your files have no-intro naming you're good to go. If not follow [Mod My Classic's guide](https://modmyclassic.com/project-lunar-how-to-use-the-built-in-rom-patcher/).
 
 
 
 **Apply the patch before adding the game to Project Lunar**
 
+You probably noticed the `patch-before-adding-the-games` folder on the previous extracted path. 
+
+Due to the way Project Lunar apply the patches, some wont work unless you patch the game before adding it to Project Lunar.
+
 ### How to apply?
 
 Apply as any other ips patch. I personally like to use [Lunar Ips](https://www.romhacking.net/utilities/240/).
 
-Simply select `Apply IPS Patch` ![Lunar IPS](https://www.romhacking.net/utilities/screenshots/240screenshot1.gif)
+Simply select `Apply IPS Patch` ![Lunar IPS](https://i.imgur.com/RBT7uHY.png)
 
-* Select you unpatch rom (must be good gen 3.21 with crc: `67A9860B` (USA, Europe), crc: `1E740145` (Korean)).
-* Select and Apply the patch (download below)
+* Select you unpatch rom.
+* Select and Apply the patch.
 * Add the patched game to Project Lunar and sync
 
 <div class="download-section">
-<a href="https://github.com/DefKorns/defkorns.github.io/raw/master/assets/Desert%20Strike%20-%20Return%20to%20the%20Gulf%20(UE)%20%5B!%5D.ips" class="btn btn-darkred" role="button">USA, Europe</a> <a href="https://github.com/DefKorns/defkorns.github.io/raw/master/assets/Desert%20Strike%20-%20Return%20to%20the%20Gulf%20(K).ips" class="btn btn-darkred" role="button">Korean</a>
+    <a href="/assets/img/uploads/fix_ips.zip" class="btn btn-darkred" role="button">Patch Pack</a>
 </div>

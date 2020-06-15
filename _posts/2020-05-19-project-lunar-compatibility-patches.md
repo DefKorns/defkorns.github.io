@@ -32,7 +32,7 @@ Now if your files have no-intro naming you're good to go. If not follow [Mod My 
 
 
 
-**Apply the patch before adding the game to Project Lunar**
+### Apply the patch before adding the game to Project Lunar
 
 You probably noticed the `patch-before-adding-the-games` folder on the previous extracted path. 
 

@@ -426,12 +426,12 @@
 
       a {
         font-weight: normal;
-        color: $primaryDark;
+        color: $headers;
         text-decoration: none;
         transition: all 0.3s;
 
         &:hover {
-          color: rgba(0, 0, 0, 0.5);
+          color: rgba(221, 191, 129, 0.8);
           img {
             -webkit-filter: grayscale(100%);
             filter: grayscale(100%);

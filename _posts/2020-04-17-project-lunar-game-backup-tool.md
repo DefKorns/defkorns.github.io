@@ -4,8 +4,8 @@ layout: post
 title: "Project Lunar: Game Backup Tool"
 subtitle: Project Lunar games export and import tool.
 description: This tool was developed to help user backup their games on Project Lunar.
-image: https://modmyclassic.com/wp-content/uploads/2020/01/backupapp.png
-optimized_image: https://modmyclassic.com/wp-content/uploads/2020/01/backupapp.png
+image: /assets/img/backupapp.png
+optimized_image: /assets/img/backupapp.png
 category: tool
 tags:
   - Project Lunar
@@ -20,17 +20,17 @@ This tool was developed to help user backup their games on Project Lunar.
 <ol>
  	<li>Download <a href="/assets/img/uploads/project_lunar_game_backup_tool.zip">Project Lunar: Game Backup Tool</a></li>
  	<li>Extract the file to a safe location
-<img class="alignnone size-full wp-image-5304" src="https://modmyclassic.com/wp-content/uploads/2020/01/extract.png" alt="" width="408" height="266" /></li>
+<img class="alignnone size-full wp-image-5304" src="/assets/img/extract.png" alt="" width="408" height="266" /></li>
  	<li>Open <strong><strong>ProjectLunarGameListBackup.exe
-</strong></strong><img class="alignnone size-full wp-image-5305" src="https://modmyclassic.com/wp-content/uploads/2020/01/backupapp.png" alt="" width="590" height="336" />
+</strong></strong><img class="alignnone size-full wp-image-5305" src="/assets/img/backupapp.png" alt="" width="590" height="336" />
 <ul>
  	<li>If Project Lunar isn't installed on default directory or is portable please browse to its location</li>
 </ul>
 </li>
  	<li>Click Backup
-<img class="alignnone size-full wp-image-5308" src="https://modmyclassic.com/wp-content/uploads/2020/01/backupapp-progress.png" alt="" width="590" height="333" /></li>
+<img class="alignnone size-full wp-image-5308" src="/assets/img/backupapp-progress.png" alt="" width="590" height="333" /></li>
  	<li>Wait for the process to finish
-<img class="alignnone size-full wp-image-5307" src="https://modmyclassic.com/wp-content/uploads/2020/01/backupapp-complete.png" alt="" width="350" height="230" />
+<img class="alignnone size-full wp-image-5307" src="/assets/img/backupapp-complete.png" alt="" width="350" height="230" />
 <ol>
  	<li>Your backups will be located on the same folder as <strong>Project Lunar: Game Backup Tool</strong></li>
 </ol>
@@ -40,9 +40,9 @@ This tool was developed to help user backup their games on Project Lunar.
 <h3>How to restore games:</h3>
 <ol>
  	<li>Open <strong><strong>ProjectLunarGameListBackup.exe </strong></strong>and click Restore<strong><strong>
-</strong></strong><img class="alignnone size-full wp-image-5305" src="https://modmyclassic.com/wp-content/uploads/2020/01/backupapp.png" alt="" width="590" height="336" /></li>
+</strong></strong><img class="alignnone size-full wp-image-5305" src="/assets/img/backupapp.png" alt="" width="590" height="336" /></li>
  	<li>The restore windows will pop-up
-<img class="alignnone size-full wp-image-5309" src="https://modmyclassic.com/wp-content/uploads/2020/01/backupapp-restore.png" alt="" width="590" height="336" /></li>
+<img class="alignnone size-full wp-image-5309" src="/assets/img/backupapp-restore.png" alt="" width="590" height="336" /></li>
  	<li>Select the backup you want to restore and click restore</li>
 </ol>
 &nbsp;

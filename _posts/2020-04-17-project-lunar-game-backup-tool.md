@@ -18,7 +18,7 @@ paginate: false
 This tool was developed to help user backup their games on Project Lunar.
 <h3>How to Backup:</h3>
 <ol>
- 	<li>Download <a href="https://classicmodscloud.com/project_lunar/tools/project_lunar_game_backup_tool.zip">Project Lunar: Game Backup Tool</a></li>
+ 	<li>Download <a href="/assets/img/uploads/project_lunar_game_backup_tool.zip">Project Lunar: Game Backup Tool</a></li>
  	<li>Extract the file to a safe location
 <img class="alignnone size-full wp-image-5304" src="https://modmyclassic.com/wp-content/uploads/2020/01/extract.png" alt="" width="408" height="266" /></li>
  	<li>Open <strong><strong>ProjectLunarGameListBackup.exe

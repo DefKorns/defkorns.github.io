@@ -11,8 +11,6 @@ tags:
   - modmyclassic
   - mini
   - themes
-email: defkorns@gmail.com
-disqus_username: defkorns
 show_hero: true
 menu:
   - title: Home
@@ -23,6 +21,12 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
+email: defkorns@gmail.com
+# See: https://disqus.com/
+disqus_username: defkorns
+# Contact Form Setting
+# See: https://formspree.io/
+formspree_form_id: formspree_form_id
 
 
 # Social Media Settings
@@ -103,4 +107,4 @@ exclude: [
 ]
 
 # Theme
-# version: v3.1.0
+version: v3.1.1

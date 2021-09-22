@@ -1,13 +1,15 @@
-name: DefKorns
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: DefKorns Shit
+title: DefKorns | Mod repository
+description: This is the hq for all my mods.
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - defkorns
+  - mods
+  - hakchi
+  - project lunar
+  - project eris
+  - modmyclassic
+  - mini
+  - themes
 show_hero: true
 menu:
   - title: Home
@@ -19,4 +21,8 @@ menu:
   - title: Feed
     url: /feed.xml
 email: defkorns@gmail.com
+# See: https://disqus.com/
 disqus_username: defkorns
+# Contact Form Setting
+# See: https://formspree.io/
+formspree_form_id: formspree_form_id
